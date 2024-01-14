@@ -26,11 +26,11 @@
 
 		right {
 			bindings = <
-				&kp F1		  &kp F2 	 &kp F3		&kp F4     &kp F5	  &kp F6	 &kp F7		&kp F8		&kp F9      &kp UP       &kp RIGHT    &kp DEL
-				&trans        &trans 	 &trans     &trans     &trans     &trans     &trans     &kp MINUS  &kp LEFT     &kp DOWN     &trans   &trans
+				&kp F1		&kp F2 	 &kp F3	    &kp F4     &kp F5	  &kp F6     &kp F7     &kp F8	   &kp F9      &kp UP       &kp RIGHT    &kp DEL
+				&trans        &trans 	 &trans     &trans     &trans     &trans     &trans     &kp MINUS  &kp LEFT     &kp DOWN     &kp APOS   &trans
 				&trans        &trans     &trans     &trans     &trans     &trans     &trans     &trans     &kp LS(COMMA) &kp LS(DOT)  &trans     &trans
 				&trans        &trans     &trans     &trans     &trans     &trans     &trans     &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP &kp C_PP   &kp RALT
-			>;
+			>;()[]
 		};
 		left {
 			bindings = <
